@@ -1,0 +1,27 @@
+{
+	"name": "topobz/kirby3-tp",
+	"description": "Kirby 3 Topo",
+	"type": "kirby-plugin",
+	"version": "0.0.1",
+	"require": {
+		"php": ">=7.2.0",
+		"afbora/kirby-minify-html": "^1.2",
+		"getkirby/composer-installer": "^1.1",
+		"hashandsalt/kirby3-schema": "^0.0.1",
+		"omz13/kirby3-htmlsitemap": "^0.2.0",
+		"omz13/kirby3-xmlsitemap": "^1.2",
+		"pedroborges/kirby-meta-tags": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Topo\\": "src/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true
+	},
+	"scripts": {
+        "post-package-install": "Topo\\Topo::postPackageInstall"
+    }
+}

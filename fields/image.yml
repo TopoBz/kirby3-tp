@@ -1,0 +1,6 @@
+type: files
+multiple: false
+translate: false
+template: image
+uploads:
+  template: image

@@ -1,0 +1,84 @@
+label: Settings
+icon: settings
+columns:
+  left:
+    width: 1/3
+    sections:
+      favicon:
+        type: fields
+        template: image
+        fields:
+          a:
+            label: Favicon
+            type: headline
+            numbered: false
+          icon:
+            extends: tp/image
+            search: false
+            required: true
+          # appelTouchIcon:
+          #   extends: tp/image
+          #   label: Appel Touch Icon
+          #   search: false
+
+
+
+      meta:
+        type: fields
+        fields:
+          b:
+            label: Metas
+            type: headline
+            numbered: false
+          metaDescription:
+            label: Meta description
+            type: text
+          metaRobots:
+            label: Meta robots
+            type: text
+  middel:
+    width: 1/3
+    sections:
+      marketing:
+        type: fields
+        fields:
+          c:
+            label: Marketing
+            type: headline
+            numbered: false
+          gacode:
+            label: Google Analytics code
+            type: text
+          fbpixel:
+            label: Facebook pixel
+            type: text
+
+  right:
+    width: 1/3
+
+
+
+# sections:
+#   favicon:
+#     type: fields
+#     width: 2/3
+#     fields:
+#       headline:
+#         label: Favicon
+#         type: headline
+#       image:
+#         type: files
+#         min: 1
+#         max: 1
+#         required: true
+#         translate: false
+
+
+
+# fields:
+#   section:
+
+#     favicon:
+#     type: text
+#   rrss:
+#     type: tp/rrss

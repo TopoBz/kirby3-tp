@@ -1,0 +1,7 @@
+title: Default Page
+tabs:
+  content:
+    extends: tp/content
+    fields:
+      slider: tp/slider
+      rrss: tp/rrss

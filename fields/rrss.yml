@@ -1,0 +1,13 @@
+label: Social Networks and other services
+type: structure
+translate: false
+fields:
+  service:
+    label: Service name
+    type: text
+    converter: ucfirst
+    placeholder: Facebook
+  link:
+    label: Link
+    type: url
+    placeholder: https://

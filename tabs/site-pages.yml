@@ -1,0 +1,6 @@
+label: Pages
+icon: page
+sections:
+  pages:
+    type: pages
+    status: published

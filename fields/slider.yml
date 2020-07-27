@@ -1,0 +1,13 @@
+label: Slider
+type: structure
+translate: false
+fields:
+  headline:
+    type: text
+  image:
+    label: Image
+    type: files
+  link:
+    label: Enlace
+    type: url
+    placeholder: https://

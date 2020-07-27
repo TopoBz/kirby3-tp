@@ -1,0 +1,13 @@
+title: Site
+fields:
+  slider:
+    extends: tp/slider
+    fields:
+      headline: false
+      text:
+        type: text
+  hello: tp/rrss
+
+# tabs:
+#   pages: tp/site-pages
+#   settings: tp/site-settings
